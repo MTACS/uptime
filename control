@@ -6,4 +6,4 @@ Description: Control Center module to view time since boot
 Maintainer: MTAC
 Author: MTAC
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
