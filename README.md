@@ -1,7 +1,9 @@
 # Uptime
 Control Center module to view time since boot
 
-iOS 14.0 - 15.3.1, requires CCSupport
+iOS 14.0 - 16.3, requires CCSupport
+
+Available on [Havoc](https://havoc.app/package/uptime)
 
 <img src="preview.png" style="width: 35%; height: 35%;">
 
