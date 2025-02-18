@@ -11,6 +11,7 @@
     return self;
 }
 - (CCUILayoutSize)moduleSizeForOrientation:(int)orientation {
-    return (CCUILayoutSize){2, 1};
+    NSInteger size = [[[NSUserDefaults standardUserDefaults] objectForKey:@"displaySize" inDomain:@"com.mtac.uptime"] integerValue];
+    return (size == 0) ? (CCUILayoutSize){1, 1} : (CCUILayoutSize){2, 1};
 }
 @end
